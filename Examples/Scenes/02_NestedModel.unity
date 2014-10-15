@@ -911,7 +911,7 @@ GameObject:
   - 4: {fileID: 794509294}
   - 114: {fileID: 794509293}
   m_Layer: 0
-  m_Name: BasicViewModel
+  m_Name: NestedViewModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
