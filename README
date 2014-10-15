@@ -30,3 +30,6 @@ Example Sceneみてください
 * まだまだ自分ですら使ってないし、コンポーネントも全然足りてない
 * iOSで動作するか未検証
 * 計測していないけれど、たぶん結構重い
+
+# License
+This software is released under the MIT License, see LICENSE.txt.
