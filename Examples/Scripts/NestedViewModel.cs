@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace DataBinderForNGUI.Example
 {
 
-public class BasicViewModel : MonoBehaviour
+public class NestedViewModel : MonoBehaviour
 {
   [SerializeField] List<ReferenceModel> views;
   RPGBattleStateModel model;
