@@ -6,6 +6,7 @@ using System.Reflection;
 namespace DataBinderForNGUI
 {
 
+[RequireComponent(typeof(UIButton))]
 class OnClickBinder : UIMethodBinder
 {
   public void OnClick()

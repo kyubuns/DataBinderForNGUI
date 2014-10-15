@@ -4,6 +4,7 @@ using System.Collections;
 namespace DataBinderForNGUI
 {
 
+[RequireComponent(typeof(UILabel))]
 class UILabelTextBinder : UIPropertyBinder
 {
   [SerializeField] private string format;
