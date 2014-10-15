@@ -1,0 +1,28 @@
+Data Binder for NGUI
+
+# なにこれ？
+「StatusModelにMPを追加したから、これを画面に表示するぞー！」
+↓
+「HierarchyWindow上で、UILabel作って・・・」
+↓
+「それをInspectorでSerializeFieldに設定して」
+↓
+「スクリプトいじって、UILabelのtextに、StatusModel.MPを代入！できた！」
+↓
+「え・・・？いらなくなった・・・？じゃあスクリプトからも消さないとNullで死ぬからちょっとまってね・・・」
+っていうのが嫌な人向けです。
+
+これを使うと
+「StatusModelにMPを追加したから、これを画面に表示するぞー！」
+↓
+「HierarchyWindow上で、UILabel作って・・・」
+↓
+「そのGameObjectに、このUILabelTextBinderを貼り付けて終わり！」
+↓
+「え？いらなくなった？じゃあそのGameObject消しといてくれればいいよ。」
+ってなります。
+
+# 注意事項
+* まだまだ自分ですら使ってないし、コンポーネントも全然足りてない
+* iOSで動作するか未検証
+* 計測していないけれど、たぶん結構重い
