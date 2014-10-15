@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 
+namespace DataBinderForNGUI.Example
+{
+
 public class RPGBattleStateModel : DataBinderForNGUI.Model
 {
   public RPGBattleStateModel(RPGStatusModel player, RPGStatusModel enemy)
@@ -21,4 +24,6 @@ public class RPGBattleStateModel : DataBinderForNGUI.Model
     get { return enemy; }
     set { enemy = value; Changed("enemy"); }
   }
+}
+
 }

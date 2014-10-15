@@ -2,6 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 
+namespace DataBinderForNGUI.Example
+{
+
 public class BasicViewModel : MonoBehaviour
 {
   [SerializeField] List<ReferenceModel> views;
@@ -14,4 +17,6 @@ public class BasicViewModel : MonoBehaviour
     model = new RPGBattleStateModel(playerModel, enemyModel);
     BinderTools.ApplyModel(views, model);
   }
+}
+
 }

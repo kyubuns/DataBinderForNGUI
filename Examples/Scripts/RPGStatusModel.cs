@@ -1,5 +1,8 @@
 using UnityEngine;
 
+namespace DataBinderForNGUI.Example
+{
+
 public class RPGStatusModel : DataBinderForNGUI.Model
 {
   public RPGStatusModel(string name, int hp, int mp, int attack)
@@ -44,4 +47,6 @@ public class RPGStatusModel : DataBinderForNGUI.Model
     HP--; // 2回値をいじっても、Updateは1フレームに1回しか呼ばれない
     Debug.Log(string.Format("Damage HP:{0}", HP));
   }
+}
+
 }
