@@ -22,6 +22,12 @@ Data Binder for NGUI
 「え？いらなくなった？じゃあそのGameObject消しといてくれればいいよ。」
 ってなります。
 
+# 使い方
+* unityプロジェクトを作る
+* Assets以下に、このDataBinderForNGUIまるまるつっこむ
+* NGUIをimportする
+* RUN
+
 # くわしくは
 Example Sceneみてください
 
