@@ -25,6 +25,7 @@ Data Binder for NGUI
 # 使い方
 * unityプロジェクトを作る
 * Assets以下に、このDataBinderForNGUIまるまるつっこむ
+** または git submodule add git@github.com:kyubuns/DataBinderForNGUI.git
 * NGUIをimportする
 * RUN
 
