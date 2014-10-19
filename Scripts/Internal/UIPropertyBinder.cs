@@ -10,6 +10,7 @@ namespace DataBinderForNGUI
 public abstract class UIPropertyBinder : UIBinder
 {
   [SerializeField] protected string propertyName;
+  [SerializeField] public bool noDelay;
   protected object PropertyValue { get { return cachedPropertyValue; } }
   private object cachedPropertyValue;
   private bool changed = false;
@@ -51,7 +52,7 @@ public abstract class UIPropertyBinder : UIBinder
     if(changedPropertyName != null && propertyName != changedPropertyName) return;
     changed = true;
 
-    if(firstChange)
+    if(firstChange || noDelay)
     {
       firstChange = false;
       Update();
