@@ -13,6 +13,7 @@ public abstract class UIPropertyBinder : UIBinder
   protected object PropertyValue { get { return cachedPropertyValue; } }
   private object cachedPropertyValue;
   private bool changed = false;
+  private bool firstChange = true;
 
   protected override void Awake()
   {
@@ -49,6 +50,12 @@ public abstract class UIPropertyBinder : UIBinder
     if(referenceModel == null || referenceModel.Model == null) return;
     if(changedPropertyName != null && propertyName != changedPropertyName) return;
     changed = true;
+
+    if(firstChange)
+    {
+      firstChange = false;
+      Update();
+    }
   }
 
 
