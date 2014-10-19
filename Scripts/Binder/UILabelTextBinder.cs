@@ -15,13 +15,6 @@ class UILabelTextBinder : UIPropertyBinder
   protected override void Awake()
   {
     target = GetComponent<UILabel>();
-    if(!target)
-    {
-      Debug.LogWarning("target not found");
-      Destroy(this);
-      return;
-    }
-
     format = !string.IsNullOrEmpty(format) ? format : defaultFormat;
     base.Awake();
   }

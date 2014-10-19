@@ -12,6 +12,7 @@ public abstract class UIPropertyBinder : UIBinder
   [SerializeField] protected string propertyName;
   [SerializeField] public bool noDelay;
   protected object PropertyValue { get { return cachedPropertyValue; } }
+
   private object cachedPropertyValue;
   private bool changed = false;
   private bool firstChange = true;
@@ -65,12 +66,20 @@ public abstract class UIPropertyBinder : UIBinder
     var property = CachedPropertyInfo;
     if (property is PropertyInfo)
     {
-      return (T)((PropertyInfo)property).GetValue(referenceModel.Model, null);
+      return (T)property.GetValue(referenceModel.Model, null);
     }
     else
     {
       return default(T);
     }
+  }
+
+
+  protected void SetPropertyValue<T>(T value)
+  {
+    cachedPropertyValue = value;
+    var property = CachedPropertyInfo;
+    property.SetValue(referenceModel.Model, value, null);
   }
 
 
