@@ -156,8 +156,8 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 2.79999995
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 11400000, guid: 29056518aafb01b49a5b08faf8e30cff, type: 2}
+  mTrueTypeFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  mFont: {fileID: 0}
   mText: Player
   mFontSize: 20
   mFontStyle: 0
@@ -231,7 +231,7 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 0, g: 0, b: 0, a: 1}
   mPivot: 3
-  mWidth: 78
+  mWidth: 80
   mHeight: 20
   mDepth: 0
   autoResizeBoxCollider: 0
@@ -239,8 +239,8 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 3.9000001
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 11400000, guid: 29056518aafb01b49a5b08faf8e30cff, type: 2}
+  mTrueTypeFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  mFont: {fileID: 0}
   mText: 'Attack: 5'
   mFontSize: 20
   mFontStyle: 0
@@ -275,7 +275,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   referenceModel: {fileID: 0}
-  memberName: 
+  propertyName: 
+  noDelay: 0
   format: 
 --- !u!114 &11400012
 MonoBehaviour:
@@ -289,7 +290,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   referenceModel: {fileID: 0}
-  memberName: 
+  propertyName: 
+  noDelay: 0
   format: 'Attack: {0}'
 --- !u!114 &11400014
 MonoBehaviour:
@@ -321,7 +323,7 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 0, g: 0, b: 0, a: 1}
   mPivot: 3
-  mWidth: 68
+  mWidth: 72
   mHeight: 20
   mDepth: 0
   autoResizeBoxCollider: 0
@@ -329,8 +331,8 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 3.4000001
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 11400000, guid: 29056518aafb01b49a5b08faf8e30cff, type: 2}
+  mTrueTypeFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  mFont: {fileID: 0}
   mText: 'HP: 123'
   mFontSize: 20
   mFontStyle: 0
@@ -365,7 +367,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   referenceModel: {fileID: 0}
-  memberName: 
+  propertyName: 
+  noDelay: 0
   format: 'HP: {0}'
 --- !u!1001 &100100000
 Prefab:

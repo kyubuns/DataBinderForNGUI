@@ -103,7 +103,7 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: .625, g: .21599263, b: .21599263, a: 1}
   mPivot: 4
-  mWidth: 72
+  mWidth: 76
   mHeight: 20
   mDepth: 1
   autoResizeBoxCollider: 0
@@ -111,8 +111,8 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 3.5999999
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 0}
-  mFont: {fileID: 11400000, guid: 29056518aafb01b49a5b08faf8e30cff, type: 2}
+  mTrueTypeFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  mFont: {fileID: 0}
   mText: Damage
   mFontSize: 20
   mFontStyle: 0
@@ -235,7 +235,7 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mAtlas: {fileID: 11400000, guid: 62adb30369acbf943a67cee0f69267a3, type: 2}
+  mAtlas: {fileID: 0}
   mSpriteName: Button
   mFillCenter: 1
 --- !u!1001 &100100000
