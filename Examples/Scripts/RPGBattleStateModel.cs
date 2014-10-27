@@ -12,18 +12,10 @@ public class RPGBattleStateModel : DataBinderForNGUI.Model
   }
 
   private RPGStatusModel player;
-  public RPGStatusModel Player
-  {
-    get { return player; }
-    set { player = value; Changed("Player"); }
-  }
+  public RPGStatusModel Player { get { return player; } set { player = value; Changed("Player"); } }
 
   private RPGStatusModel enemy;
-  public RPGStatusModel Enemy
-  {
-    get { return enemy; }
-    set { enemy = value; Changed("enemy"); }
-  }
+  public RPGStatusModel Enemy { get { return enemy; } set { enemy = value; Changed("Enemy"); } }
 }
 
 }
